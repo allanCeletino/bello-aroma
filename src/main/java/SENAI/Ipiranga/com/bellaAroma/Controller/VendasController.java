@@ -18,7 +18,7 @@ import SENAI.Ipiranga.com.bellaAroma.Model.Vendas;
 import SENAI.Ipiranga.com.bellaAroma.Repository.VendasRepository;
 
 @RestController
-@RequestMapping("/Vandas")
+@RequestMapping("/Vendas")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class VendasController {
     @Autowired

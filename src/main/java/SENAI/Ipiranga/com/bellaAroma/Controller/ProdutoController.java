@@ -62,7 +62,7 @@ public class ProdutoController {
     } 
 
     // 5. ATUALIZAR PRODUTO
-    @PutMapping("/atualizar")
+    @PutMapping("/atualizar/{idProduto}")
     public ResponseEntity<Produto> put(@RequestBody Produto produto) {
         return ResponseEntity.status(HttpStatus.OK)
                 .body(repository.save(produto));

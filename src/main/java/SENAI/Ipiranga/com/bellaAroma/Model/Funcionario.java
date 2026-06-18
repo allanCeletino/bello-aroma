@@ -25,7 +25,7 @@ public class Funcionario {
 	private String telefone;
 	private String endereco;
 	private String email;
-	private String nPedido;
+	private long nPedido;
 	private String senha;
 	private String status;
 	
@@ -75,10 +75,10 @@ public class Funcionario {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getnPedido() {
+	public long getnPedido() {
 		return nPedido;
 	}
-	public void setnPedido(String nPedido) {
+	public void setnPedido(long nPedido) {
 		this.nPedido = nPedido;
 	}
 	public String getSenha() {
